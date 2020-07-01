@@ -1,4 +1,4 @@
-module my1_network {
+module my_network {
   source  = "app.terraform.io/jsp-kr/quickstart-module/nsx"
   version = "0.0.1"
 
