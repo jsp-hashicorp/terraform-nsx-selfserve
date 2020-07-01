@@ -1,6 +1,7 @@
 module my_network {
-  source  = "app.terraform.io/grantorchard/quickstart-module/nsx"
+  source  = "app.terraform.io/jsp-kr/quickstart-module/nsx"
   version = "0.0.1"
+
 
   private_subnets = [
     "10.0.3.0/28",
