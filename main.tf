@@ -2,7 +2,6 @@ module my_network {
   source  = "app.terraform.io/jsp-kr/quickstart-module/nsx"
   version = "0.0.1"
 
-
   private_subnets = [
     "10.0.3.0/28",
     "10.0.3.16/28",
